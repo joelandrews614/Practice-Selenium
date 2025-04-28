@@ -3,12 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="TutorialsPoint.PracticeTests">
+      <class name="PracticeTests.Element_Interations">
         <methods>
+          <include name="TC03_Handling_Links"/>
           <include name="setUp"/>
-          <include name="Exercise3_Frame_Handling"/>
         </methods>
-      </class> <!-- TutorialsPoint.PracticeTests -->
+      </class> <!-- PracticeTests.Element_Interations -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

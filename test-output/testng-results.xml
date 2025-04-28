@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-03-24T15:44:56 IST" name="Default suite" finished-at="2025-03-24T15:45:38 IST" duration-ms="42848">
+  <suite started-at="2025-04-28T15:18:10 IST" name="Default suite" finished-at="2025-04-28T15:18:14 IST" duration-ms="3680">
     <groups>
     </groups>
-    <test started-at="2025-03-24T15:44:56 IST" name="Default test" finished-at="2025-03-24T15:45:38 IST" duration-ms="42848">
-      <class name="TutorialsPoint.PracticeTests">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:TutorialsPoint.PracticeTests@3c41ed1d]" started-at="2025-03-24T15:44:56 IST" name="setUp" finished-at="2025-03-24T15:44:57 IST" duration-ms="1821" status="PASS">
+    <test started-at="2025-04-28T15:18:10 IST" name="Default test" finished-at="2025-04-28T15:18:14 IST" duration-ms="3680">
+      <class name="PracticeTests.Element_Interations">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:PracticeTests.Element_Interations@3b0090a4]" started-at="2025-04-28T15:18:10 IST" name="setUp" finished-at="2025-04-28T15:18:14 IST" duration-ms="3309" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="Exercise3_Frame_Handling()[pri:0, instance:TutorialsPoint.PracticeTests@3c41ed1d]" started-at="2025-03-24T15:44:58 IST" name="Exercise3_Frame_Handling" finished-at="2025-03-24T15:45:38 IST" duration-ms="40984" status="PASS">
+        <test-method signature="TC03_Handling_Links()[pri:0, instance:PracticeTests.Element_Interations@3b0090a4]" started-at="2025-04-28T15:18:14 IST" name="TC03_Handling_Links" finished-at="2025-04-28T15:18:14 IST" duration-ms="337" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Exercise3_Frame_Handling -->
-      </class> <!-- TutorialsPoint.PracticeTests -->
+        </test-method> <!-- TC03_Handling_Links -->
+      </class> <!-- PracticeTests.Element_Interations -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
