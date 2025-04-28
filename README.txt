@@ -8,19 +8,19 @@ Programming Coding Questions:
     	2. Class
     	3. CssSelectors
     	4. Xpaths
-    4. Web Elements and their Interactions -
-    	1. Textbox 
-    	2. Button
-    	3. Links
+    4. Web Elements and their Interactions
+    	1. Textbox - 28/04/25
+    	2. Button - 28/04/25
+    	3. Links - 28/04/25
     	4. Checkboxes
     	5. Radiobuttons
     	6. Dropdown
-    	X. Dates
-    	7. Table
-    	8. Images
-    	9. Alerts
-    	10. iFrames
-    	11. File Uploads
+    	7. Dates
+    	8. Table
+    	9. Images
+    	10. Alerts
+    	11. iFrames
+    	12. File Uploads
     X. Asserts and Expects
     5. Waits - 
     6. Page Object Model - 
