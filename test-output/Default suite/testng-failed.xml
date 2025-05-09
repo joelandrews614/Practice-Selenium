@@ -5,8 +5,8 @@
     <classes>
       <class name="PracticeTests.Day2_Locators_Mastery">
         <methods>
-          <include name="TC05_Dynamic_Elements"/>
           <include name="setUp"/>
+          <include name="TC_Assessment_02"/>
         </methods>
       </class> <!-- PracticeTests.Day2_Locators_Mastery -->
     </classes>

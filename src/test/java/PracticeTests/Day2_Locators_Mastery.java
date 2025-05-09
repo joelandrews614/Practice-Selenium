@@ -24,7 +24,7 @@ public class Day2_Locators_Mastery {
 		
 		driver = WebDriverManager.chromedriver().create();
 		driver.manage().window().maximize();
-//		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		
 		wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 		
@@ -101,7 +101,7 @@ public class Day2_Locators_Mastery {
 	}
 	
 	@Test
-	public void TC_Assessment() {
+	public void TC_Assessment_01() {
 		
 		driver.get("https://www.saucedemo.com/");
 		
@@ -117,5 +117,24 @@ public class Day2_Locators_Mastery {
 		
 	}
 	
-	
+	@Test
+	public void TC_Assessment_02() throws InterruptedException {
+		
+		driver.get("https://rahulshettyacademy.com/dropdownsPractise/");
+		
+		driver.findElement(By.cssSelector("[id='autosuggest']")).sendKeys("India");
+		
+		driver.findElement(By.id("ctl00_mainContent_ddl_originStation1_CTXT")).click();
+		
+		driver.findElement(By.cssSelector("[text='Chennai (MAA)']")).click();
+		
+		driver.findElement(By.id("ctl00_mainContent_ddl_destinationStation1_CTXT")).click();
+		
+		driver.findElement(By.xpath("(//*[@text='Kochi (COK)'])[2]")).click();
+		
+		driver.findElement(By.xpath("(//input[@id='ctl00_mainContent_view_date1'])")).sendKeys("15/10");
+		
+		Thread.sleep(Duration.ofSeconds(4));
+		
+	}	
 }
