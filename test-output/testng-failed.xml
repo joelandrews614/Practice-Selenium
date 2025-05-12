@@ -3,12 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="PracticeTests.Day2_Locators_Mastery">
+      <class name="PracticeTests.Day4_AdvancedXpath_And_DynamicElements">
         <methods>
           <include name="setUp"/>
-          <include name="TC_Assessment_02"/>
+          <include name="TC01_Xpath_Strategies"/>
         </methods>
-      </class> <!-- PracticeTests.Day2_Locators_Mastery -->
+      </class> <!-- PracticeTests.Day4_AdvancedXpath_And_DynamicElements -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

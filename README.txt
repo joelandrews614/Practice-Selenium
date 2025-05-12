@@ -6,6 +6,12 @@ Interview Questions:
 	4. How do you handle StaleElement
 	5. How to locate Dynamic Elements
 
+	1. Handling Upload Files
+	2. Javascript Executor
+	3. Actions Class
+	4. Screenshots
+	5. 
+
 Test Framework Questions:
 
 	1. Installation and Environment Setup - 24/04/25
@@ -34,6 +40,7 @@ Test Framework Questions:
     7. File Uploads - 
     8. Handling Windows, Frames and Tabs - 
     9. Handling Screenshots - 
+    X. Handling Cookies
     10. Logging
     11. Framework Folder Structure
     12. Utility Classes

@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-05-08T18:36:22 IST" name="Default suite" finished-at="2025-05-08T18:36:31 IST" duration-ms="8539">
+  <suite started-at="2025-05-09T14:59:32 IST" name="Default suite" finished-at="2025-05-09T14:59:37 IST" duration-ms="5193">
     <groups>
     </groups>
-    <test started-at="2025-05-08T18:36:22 IST" name="Default test" finished-at="2025-05-08T18:36:31 IST" duration-ms="8539">
-      <class name="PracticeTests.Day2_Locators_Mastery">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:PracticeTests.Day2_Locators_Mastery@4116aac9]" started-at="2025-05-08T18:36:22 IST" name="setUp" finished-at="2025-05-08T18:36:24 IST" duration-ms="1686" status="PASS">
+    <test started-at="2025-05-09T14:59:32 IST" name="Default test" finished-at="2025-05-09T14:59:37 IST" duration-ms="5193">
+      <class name="PracticeTests.Day4_AdvancedXpath_And_DynamicElements">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:PracticeTests.Day4_AdvancedXpath_And_DynamicElements@3cd3e762]" started-at="2025-05-09T14:59:32 IST" name="setUp" finished-at="2025-05-09T14:59:34 IST" duration-ms="1596" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="TC_Assessment_02()[pri:0, instance:PracticeTests.Day2_Locators_Mastery@4116aac9]" started-at="2025-05-08T18:36:24 IST" name="TC_Assessment_02" finished-at="2025-05-08T18:36:31 IST" duration-ms="6780" status="PASS">
+        <test-method signature="TC01_Xpath_Strategies()[pri:0, instance:PracticeTests.Day4_AdvancedXpath_And_DynamicElements@3cd3e762]" started-at="2025-05-09T14:59:34 IST" name="TC01_Xpath_Strategies" finished-at="2025-05-09T14:59:37 IST" duration-ms="3554" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TC_Assessment_02 -->
-      </class> <!-- PracticeTests.Day2_Locators_Mastery -->
+        </test-method> <!-- TC01_Xpath_Strategies -->
+      </class> <!-- PracticeTests.Day4_AdvancedXpath_And_DynamicElements -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
