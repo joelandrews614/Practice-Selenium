@@ -3,12 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="PracticeTests.Day4_AdvancedXpath_And_DynamicElements">
+      <class name="PracticeTests.Day5_Miscellaneous_Questions">
         <methods>
           <include name="setUp"/>
-          <include name="TC01_Xpath_Strategies"/>
+          <include name="TC_06_Getting_All_The_Broken_Images"/>
         </methods>
-      </class> <!-- PracticeTests.Day4_AdvancedXpath_And_DynamicElements -->
+      </class> <!-- PracticeTests.Day5_Miscellaneous_Questions -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
