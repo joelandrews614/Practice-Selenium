@@ -2,19 +2,19 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-05-12T18:48:12 IST" name="Default suite" finished-at="2025-05-12T18:48:17 IST" duration-ms="5456">
+  <suite started-at="2025-05-13T17:48:48 IST" name="Default suite" finished-at="2025-05-13T17:48:57 IST" duration-ms="9310">
     <groups>
     </groups>
-    <test started-at="2025-05-12T18:48:12 IST" name="Default test" finished-at="2025-05-12T18:48:17 IST" duration-ms="5456">
+    <test started-at="2025-05-13T17:48:48 IST" name="Default test" finished-at="2025-05-13T17:48:57 IST" duration-ms="9310">
       <class name="PracticeTests.Day5_Miscellaneous_Questions">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:PracticeTests.Day5_Miscellaneous_Questions@59af0466]" started-at="2025-05-12T18:48:12 IST" name="setUp" finished-at="2025-05-12T18:48:14 IST" duration-ms="2139" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:PracticeTests.Day5_Miscellaneous_Questions@747edf66]" started-at="2025-05-13T17:48:48 IST" name="setUp" finished-at="2025-05-13T17:48:50 IST" duration-ms="2089" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="TC_06_Getting_All_The_Broken_Images()[pri:0, instance:PracticeTests.Day5_Miscellaneous_Questions@59af0466]" started-at="2025-05-12T18:48:14 IST" name="TC_06_Getting_All_The_Broken_Images" finished-at="2025-05-12T18:48:17 IST" duration-ms="3262" status="PASS">
+        <test-method signature="TC_09_Dropdown__Without_Select_Class()[pri:0, instance:PracticeTests.Day5_Miscellaneous_Questions@747edf66]" started-at="2025-05-13T17:48:50 IST" name="TC_09_Dropdown__Without_Select_Class" finished-at="2025-05-13T17:48:57 IST" duration-ms="7182" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TC_06_Getting_All_The_Broken_Images -->
+        </test-method> <!-- TC_09_Dropdown__Without_Select_Class -->
       </class> <!-- PracticeTests.Day5_Miscellaneous_Questions -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->

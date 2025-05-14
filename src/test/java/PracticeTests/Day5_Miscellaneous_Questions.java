@@ -2,6 +2,8 @@ package PracticeTests;
 
 import java.io.File;
 import java.io.IOException;
+import java.net.HttpURLConnection;
+import java.net.URL;
 import java.time.Duration;
 import java.util.List;
 import java.util.Set;
@@ -136,4 +138,90 @@ public class Day5_Miscellaneous_Questions {
 		}
 		log.info("Successfully printed all the cookies");
 	}	
+	
+	
+	@Test
+	public void TC_06_Finding_All_The_Broken_Images() {
+		
+		driver.get("https://the-internet.herokuapp.com/broken_images");
+		
+		List<WebElement> allLinks = driver.findElements(By.tagName("img"));
+		
+		System.out.println(allLinks.size());
+		for(WebElement link: allLinks) {
+							
+			if(getResponseCode(link.getAttribute("src")) >= 400) 
+				System.out.println(link.getAttribute("src") + " is Dead");
+		}
+	}
+
+	@Test
+	public void TC_07_Finding_All_The_Broken_Links() {
+		
+		driver.get("https://practice-automation.com/broken-links/");
+		
+		List<WebElement> links = driver.findElements(By.tagName("a"));
+		
+		System.out.println(links.size());
+		for(WebElement link : links) {
+			if(getResponseCode(link.getAttribute("href")) >= 400) 
+				System.out.println(link.getAttribute("href") + " is Dead");
+		}
+		
+	}
+	
+	@Test
+	public void TC_08_DeleteAllCookies() {
+		
+		driver.get("https://the-internet.herokuapp.com/");
+		
+		driver.manage().deleteAllCookies();
+		
+		Set<Cookie> cookies = driver.manage().getCookies();
+		
+		for(Cookie cookie : cookies) {
+			System.out.println("Name: " + cookie.getName() + " , Value: " + cookie.getValue());
+		}
+		
+	}
+	
+	@Test
+	public void TC_09_Dropdown__Without_Select_Class() throws InterruptedException {
+		
+		String value = "Please select an option";
+		
+		driver.get("https://the-internet.herokuapp.com/dropdown");
+		
+		List<WebElement> options = driver.findElements(By.xpath("//option"));
+		
+		for(WebElement option : options) {
+			if(option.getText().equalsIgnoreCase(value)) 
+				option.click();
+		}
+		
+		Thread.sleep(Duration.ofSeconds(3));
+		
+	}
+	
+	
+	// Helper Methods:
+	public static int getResponseCode(String elementSrcValue) {
+		
+		int responseCode = 0;
+		
+		try {
+		
+			HttpURLConnection connection = (HttpURLConnection) new URL(elementSrcValue).openConnection();
+			connection.setRequestMethod("HEAD");
+			connection.connect();
+			
+			responseCode = connection.getResponseCode();
+			
+		}catch(Exception e) {
+			System.out.println("Exeception : " + e);
+		}
+		
+		return responseCode;
+			
+	}
 }
