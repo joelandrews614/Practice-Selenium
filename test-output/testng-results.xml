@@ -2,20 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-05-13T17:48:48 IST" name="Default suite" finished-at="2025-05-13T17:48:57 IST" duration-ms="9310">
+  <suite started-at="2025-05-16T12:43:15 IST" name="Default suite" finished-at="2025-05-16T12:43:33 IST" duration-ms="18438">
     <groups>
     </groups>
-    <test started-at="2025-05-13T17:48:48 IST" name="Default test" finished-at="2025-05-13T17:48:57 IST" duration-ms="9310">
-      <class name="PracticeTests.Day5_Miscellaneous_Questions">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:PracticeTests.Day5_Miscellaneous_Questions@747edf66]" started-at="2025-05-13T17:48:48 IST" name="setUp" finished-at="2025-05-13T17:48:50 IST" duration-ms="2089" status="PASS">
+    <test started-at="2025-05-16T12:43:15 IST" name="Default test" finished-at="2025-05-16T12:43:33 IST" duration-ms="18438">
+      <class name="MockInterviewTests.Day1_Interview">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:MockInterviewTests.Day1_Interview@206a70ef]" started-at="2025-05-16T12:43:15 IST" name="setUp" finished-at="2025-05-16T12:43:16 IST" duration-ms="1648" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="TC_09_Dropdown__Without_Select_Class()[pri:0, instance:PracticeTests.Day5_Miscellaneous_Questions@747edf66]" started-at="2025-05-13T17:48:50 IST" name="TC_09_Dropdown__Without_Select_Class" finished-at="2025-05-13T17:48:57 IST" duration-ms="7182" status="PASS">
+        <test-method signature="TC_06_GetAllTheLinks()[pri:0, instance:MockInterviewTests.Day1_Interview@206a70ef]" started-at="2025-05-16T12:43:16 IST" name="TC_06_GetAllTheLinks" finished-at="2025-05-16T12:43:33 IST" duration-ms="16519" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TC_09_Dropdown__Without_Select_Class -->
-      </class> <!-- PracticeTests.Day5_Miscellaneous_Questions -->
+        </test-method> <!-- TC_06_GetAllTheLinks -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:MockInterviewTests.Day1_Interview@206a70ef]" started-at="2025-05-16T12:43:33 IST" name="tearDown" finished-at="2025-05-16T12:43:33 IST" duration-ms="224" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- MockInterviewTests.Day1_Interview -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

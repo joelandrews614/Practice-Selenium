@@ -3,12 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="PracticeTests.Day5_Miscellaneous_Questions">
+      <class name="MockInterviewTests.Day1_Interview">
         <methods>
+          <include name="TC_03_SwitchingIframes"/>
+          <include name="tearDown"/>
           <include name="setUp"/>
-          <include name="TC_06_Getting_All_The_Broken_Images"/>
         </methods>
-      </class> <!-- PracticeTests.Day5_Miscellaneous_Questions -->
+      </class> <!-- MockInterviewTests.Day1_Interview -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
