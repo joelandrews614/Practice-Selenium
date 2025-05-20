@@ -107,14 +107,3 @@ public class Day1_Interview extends BaseTest{
 	}
 	
 }
-
-//Mock Interview 1: (Pass: 2.5, Fail: 4.5)
-// 	1. Dynamic WebElements - NO
-// 		Xpath - contains and starts-with
-// 	2. Iframes - OK
-// 		driver().switchTo().frame();
-// 	3. Element is iframe or not - Confused Question
-// 	4. Keyboard Actions - Theoritical OK but not Coding NO
-// 	5. How to type Uppercase Letters in Selenium - NO
-//	6. Get all the links and print them - OK
-//  7. Check all the links Healthy or not - NO

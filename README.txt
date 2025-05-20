@@ -1,28 +1,34 @@
-
-Interview Questions:
-	1. Difference between get() and navigate().to()
-	2. Difference between Implicit and Explicit Waits
-	3. What is Fluent Wait and when do you use it
-	4. How do you handle StaleElement
-	5. How to locate Dynamic Elements
-
-	1. Handling Upload Files
-	2. Javascript Executor
-	3. Actions Class
-	4. Screenshots
-	5. 
+Coding Questions:
+	*.  Find a Web Element using
+			*. CSS Selector
+			*. Dynamic X-path Functions
+	*.  How to handle Drop-downs
+	*.  Write Implicit and Explicit Waits
+	*.  Create a Fluent Wait and when do you use it
+	*.  How do you handle StaleElement
+	*.  How to locate Dynamic Elements
+	*.  Wait for Element to Appear, Then Click
+	*.  Write a Method to Select a Check-box Based on Label
+	*.  Scroll and Click an Element Not in View
+	*.  Pop-ups and Alerts
+	*.  Handle Web-Elements using Action Class
+	*.  Handling Windows and Tabs
+	*.  Handling I-frames
+	*.  How to Upload Files
+	*.  Verify Table Data Matches Expected Value
+	*.  Create a Data Provider for Login Tests
+	*.  Read Test Data from Excel File (Apache POI)
+	*.  Write a Retry Logic
+	*.  Run Tests in Multiple Browsers
+	*.  CI and CD Pipelines
 	
+Theoretical Questions:
+	*.  Difference between get() and navigate().to()
+	*.  How do you manage test data for large automated test suite 
+	*.  How to handle flanky tests
 
 Test Framework Questions:
 
-	1. Installation and Environment Setup - 24/04/25
-	2. Test Methods - 24/04/25
-    3. Selectors and Locators - 25/04/25
-    	1. ID
-    	2. Class
-    	3. CssSelectors
-    	4. Xpaths
-    4. Web Elements and their Interactions
     	1. Textbox - 28/04/25
     	2. Button - 28/04/25
     	3. Links - 28/04/25
@@ -35,32 +41,28 @@ Test Framework Questions:
     	10. Alerts - 05/05/25
     	11. iFrames - Target on 07/05/25
     	12. File Uploads - 
-    X. Asserts and Expects
-    5. Waits - 
     6. Page Object Model - 
     7. File Uploads - 
     8. Handling Windows, Frames and Tabs - 
     9. Handling Screenshots - 
-    X. Handling Cookies
+    *.  Handling Cookies
     10. Logging
     11. Framework Folder Structure
     12. Utility Classes
     13. Test Data Handling and DDT
     14. Parallel Testing
     15. Reports
-    16. CI CD Pipelines
     17. API Automation Testing
     18. Debugging
     19. STAR Method 
 
-
-    X. Scrolling
+    *.  Scrolling
         1. Scroll through Web Page
         2. Scroll Into a WebElement
-    X. Download Files
-    X. Actions
+    *.  Download Files
+    *.  Actions
     
- Programming Coding Questions:
+ Core Programming Coding Questions:
  	String Manipulations:
  		1. Reverse a String
  			1. With StringBuilder

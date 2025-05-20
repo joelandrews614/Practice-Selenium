@@ -52,18 +52,10 @@ public class Day5_Miscellaneous_Questions {
 		
 		// Using relative file path:		
 		File file = new File("src/test/resources/TestFiles/JoelAndrewsJeyakumar_QA_Automation.pdf");
-		driver.findElement(By.name("file")).sendKeys("..\\\\src\\test\\resources\\TestFiles\\JoelAndrewsJeyakumar_QA_Automation.pdf");
+		driver.findElement(By.name("file")).sendKeys(file.getAbsolutePath());
 		
 		Thread.sleep(Duration.ofSeconds(3));
 		
-		// Using absolute file path:
-		driver.navigate().refresh();
-		
-		Thread.sleep(Duration.ofSeconds(3));
-		
-		driver.findElement(By.name("file")).sendKeys("C:\\Users\\V R Della\\Desktop\\Automation\\Selenium\\Practice-Selenium\\src\\test\\resources\\TestFiles\\JoelAndrewsJeyakumar_QA_Automation.pdf");
-		
-		Thread.sleep(Duration.ofSeconds(3));
 	}
 	
 	@Test
